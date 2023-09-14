@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "Lab by Zhuoyuan Zhang\nThis is Euler’s formula: \\(e^{ \\pm i\\theta } = \\cos \\theta \\pm i\\sin \\theta\\)  This is Euler’s theorem: \\[\na^{\\varphi (n)}\\equiv 1{\\pmod {n}}\n\\]\nHere’s a footnote.1\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\nA Mermaid diagram\n1"
+  },
+  {
+    "objectID": "index.html#footnotes",
+    "href": "index.html#footnotes",
+    "title": "simple_quarto_website",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis is the footnote.↩︎"
+  },
+  {
+    "objectID": "slides/slides.html#slide-1",
+    "href": "slides/slides.html#slide-1",
+    "title": "Q6",
+    "section": "Slide 1",
+    "text": "Slide 1"
+  },
+  {
+    "objectID": "slides/slides.html#slide-2",
+    "href": "slides/slides.html#slide-2",
+    "title": "Q6",
+    "section": "Slide 2",
+    "text": "Slide 2"
+  },
+  {
+    "objectID": "slides/slides.html#slide-3",
+    "href": "slides/slides.html#slide-3",
+    "title": "Q6",
+    "section": "Slide 3",
+    "text": "Slide 3\n(Lloyd-Jones et al. 1999)\n\n\n\n\n\n\n\nLloyd-Jones, Donald M, Martin G Larson, Alexa Beiser, and Daniel Levy. 1999. “Lifetime Risk of Developing Coronary Heart Disease.” The Lancet 353 (9147): 89–92."
+  }
+]

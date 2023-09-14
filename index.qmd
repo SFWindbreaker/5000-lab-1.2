@@ -1,0 +1,60 @@
+---
+title: "simple_quarto_website"
+bibliography: reference.bib
+csl: nature.csl
+
+---
+
+<h1> Lab by Zhuoyuan Zhang </h1>
+<h2> This is two columns</h2>  
+
+::: {layout-ncol=2}
+### List One
+
+- 1
+- 2
+
+### List Two
+
+- 1
+- 2
+:::
+
+<h3> <ul>
+<li>The best cure</li>
+<li>for body is a quiet mind.</li>
+</ul></h3>
+
+| 1 | 2 | 1 | 2 |
+|---|---|---|---|
+| 1 | 2 | 3 | 4 |
+| a | b | c | d |
+
+This is Euler's formula: $e^{ \pm i\theta } = \cos \theta \pm i\sin \theta$ <br>
+This is Euler's theorem: 
+$$ 
+a^{\varphi (n)}\equiv 1{\pmod {n}} 
+$$ 
+
+Here's a footnote.[^1]
+
+[^1]: This is the footnote.
+
+> This is just quote.
+
+![](./images/1.jpg){fig-align="left" width="6.14in"}
+![](images/2.jpg){fig-align="left" width="6.14in"}
+
+{{< video https://youtu.be/X3paOmcrTjQ width=“800” height=“500” >}}
+
+```{mermaid}
+%%| fig-cap: "A Mermaid diagram"
+%%| code-fold: true
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+[@lloyd1999lifetime]
